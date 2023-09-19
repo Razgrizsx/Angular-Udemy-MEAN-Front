@@ -6,13 +6,15 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { MainComponent } from './pages/main/main.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SignalComponent } from './signal/signal.component';
 
 
 @NgModule({
   declarations: [
     LoginComponent,
     RegistroComponent,
-    MainComponent
+    MainComponent,
+    SignalComponent
   ],
   imports: [
     CommonModule,

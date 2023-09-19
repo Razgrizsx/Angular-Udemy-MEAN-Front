@@ -1,0 +1,4 @@
+<h1>Hello World</h1>
+<h2>Price: {{price()}}</h2>
+<h2>User: {{user() | json}}</h2>
+<input type="text" placeholder="Price..." [(ngModel)="price"] (input)="onChange($event)">

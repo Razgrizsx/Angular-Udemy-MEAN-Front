@@ -1,0 +1,8 @@
+<h1>Signals</h1>
+
+<h2>Target <small>{{target | json}}</small></h2>
+
+<h2>Price: <small>{{price()}}</small></h2>
+<h2>User: <small>{{user() | json}}</small></h2>
+
+<input type="text" placeholder="Target" (input)="onChange($event)">
