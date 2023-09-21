@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './pages/login/login.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { MainComponent } from './pages/main/main.component';
-import { SignalComponent } from './signal/signal.component';
+import { ContadorComponent } from './contador/contador.component';
 
 const routes: Routes = [
   {
@@ -19,8 +19,8 @@ const routes: Routes = [
         component: RegistroComponent
       },
       {
-        path:'signal',
-        component: SignalComponent
+        path:'contador',
+        component: ContadorComponent
       },
       {
         path:'**',

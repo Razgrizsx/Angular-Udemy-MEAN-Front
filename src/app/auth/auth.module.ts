@@ -6,7 +6,9 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { MainComponent } from './pages/main/main.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { SignalComponent } from './signal/signal.component';
+import { HijoComponent } from './contador/hijo/hijo.component';
+import { NietoComponent } from './contador/nieto/nieto.component';
+import { ContadorComponent } from './contador/contador.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { SignalComponent } from './signal/signal.component';
     LoginComponent,
     RegistroComponent,
     MainComponent,
-    SignalComponent
+    HijoComponent,
+    NietoComponent,
+    ContadorComponent
   ],
   imports: [
     CommonModule,
